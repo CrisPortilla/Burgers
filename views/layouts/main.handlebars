@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Eat-Da-Burer</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12" id="pageHeader">
+                <img src="/assets/images/images.jpg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="input">
+                <form action="/burgers/create" method="POST">
+                    <input id="input-box" name="burger_name" type="text" placeholder="Enter A Burger Name">
+                    <br>
+                    <button type="submit" class="btn" id="enter">Enter</button>
+                </form>
+            </div>
+        </div>
+
+        {{{ body }}}
+
+    </div>
+
+</body>
+
+</html>
